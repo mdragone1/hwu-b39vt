@@ -1,0 +1,5 @@
+<launch>
+    <node pkg="my_obstacle_avoidance" type="my_obstacle_avoidance" name="my_obstacle_avoidance" output="screen">
+      <param name="min_distance" type="double" value="0.6"/>
+    </node>
+</launch>
